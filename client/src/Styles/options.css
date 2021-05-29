@@ -1,0 +1,140 @@
+.link {
+  color: white;
+  font-size: 1vw;
+  /* top: 1px; */
+  margin-left: 1vw;
+  display: inline;
+}
+.Requestlink {
+  color: white;
+  font-size: 1vw;
+  /* top: 1px; */
+  display: inline;
+}
+
+.icon {
+  width: 1.7vw;
+  height: 3vh;
+  margin-bottom: 1vh;
+}
+.Create {
+  color: #17a2b8;
+  font-family: 'Muli', sans-serif;
+  margin-left: 1vw;
+}
+.myBlock {
+  height: 5vh;
+  width: 3vw;
+
+  /* display: flex;
+    flex-direction: row;
+    justify-content: left; */
+  align-items: center;
+}
+.image {
+  width: 2vw;
+  /* height: 3vh; */
+  margin: auto;
+}
+.image:hover {
+  width: 2.5vw;
+  /* height: 4vh; */
+  margin-bottom: 3vh;
+  background-color: #f9feff;
+}
+
+.options {
+  /* min-height: ; */
+  padding-left: 1.7vw;
+  padding-top: 3%;
+  width: 98%;
+  height: 6%;
+  display: block;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.options:hover {
+  padding-left: 1.7vw;
+  padding-top: 3%;
+  cursor: pointer;
+  height: 6%;
+  display: block;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  text-decoration: none;
+  background-color: #59c6da;
+}
+.options:focus {
+  padding-left: 1.7vw;
+  padding-top: 3%;
+  cursor: pointer;
+  height: 6%;
+  display: block;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  text-decoration: none;
+  background-color: #59c6da;
+}
+
+.requestOptions {
+  padding-left: 1vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  width: 92%;
+  height: 5vh;
+  display: block;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.requestOptions:hover {
+  padding-left: 1vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  width: 92%;
+  cursor: pointer;
+  height: 5vh;
+  display: block;
+
+  text-decoration: none;
+  background-color: #59c6da;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.requestOptions:focus {
+  padding-left: 1vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  width: 92%;
+  cursor: pointer;
+  height: 5vh;
+  display: block;
+
+  text-decoration: none;
+  background-color: #59c6da;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}

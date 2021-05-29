@@ -1,0 +1,13 @@
+.form-group {
+    text-align: left;
+    padding-top: 7%;
+    color: black;
+  }
+  
+  .loginActivateCard {
+    border-radius: 5%;
+    max-width: 25%;
+    min-width: 15rem;
+    background-color: #ffffff;
+    color: rgb(2, 158, 163);
+  }

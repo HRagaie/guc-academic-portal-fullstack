@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+}
+html {
+  height: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+body {
+  height: 100%;
+}
+
+.main-page {
+  margin-left:3vw;
+}
+.sideBarTable{
+  width: 22vw;
+}

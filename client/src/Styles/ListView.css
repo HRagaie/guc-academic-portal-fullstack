@@ -1,0 +1,58 @@
+.table-img {
+  width: 1.2vw;
+  margin-left: 2vw;
+  cursor: pointer;
+}
+.table-img:hover {
+  width: 1.5vw;
+  margin-left: 2vw;
+  cursor: pointer;
+}
+.blockIcon{
+  width:3vw;
+  height:4vh;
+  display: inline-block;
+}
+.listTable {
+  width: 60vw;
+}
+
+.listView-error {
+  color: red;
+  font-size: 0.8vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0vw;
+}
+
+.list-div {
+  /* height: 20vw;
+  overflow-y: scroll; */
+  width: 65vw;
+}
+
+.list-div::-webkit-scrollbar {
+  width: 0.3vw;
+  height: 0.3vw;
+}
+
+.list-div::-webkit-scrollbar-track {
+  border-radius: 0.5vw;
+  background: #eeeeee;
+}
+
+.list-div::-webkit-scrollbar-thumb {
+  border-radius: 0.3vw;
+  background: #17a2b8;
+}
+
+.list-col {
+  min-width: 7vw;
+}
+
+.missingDaysCol {
+  width: 12vw;
+}
+
+.missingDaysTable{
+  margin-bottom: 2vw;
+}

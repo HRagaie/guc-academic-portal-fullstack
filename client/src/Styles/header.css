@@ -1,0 +1,35 @@
+.page-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+  align-items: center;
+  /* border-bottom: 2px solid #e8e9e9; */
+  width: 80vw;
+  height: 10vh;
+  /* margin-left: 20vw; */
+}
+.page-header .right {
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+.header-btn {
+  background-color: #ffffff; /* Green */
+  border: 1px solid #ccc;
+  color: rgb(54, 52, 52);
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.header-btn:focus {
+  border: 1px solid #ccc;
+  outline: none;
+}

@@ -1,0 +1,76 @@
+.sidebar {
+  /* background-color:  #17a2b8 ;  */
+  background: linear-gradient(145deg, #00b5ad, #17a2b8);
+  position: fixed;
+  width: 20vw;
+  height: 100vh;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+  
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+}
+.logo {
+  width: 5vw;
+  height: 10vh;
+  margin-bottom: 8vh;
+  margin-left: 1.7vw;
+  margin-top: 3vh;
+  position: relative;
+}
+.guc {
+  width: 100%;
+  height: 18%;
+  margin-bottom: 8vh;
+  position: absolute;
+}
+
+.memberName {
+  color: white;
+  margin-bottom: 4vh;
+  /* margin-left: 1vw; */
+  display: inline;
+  position: relative;
+}
+.dropDown {
+  position: relative;
+  left: 1vw;
+  margin: 0vh;
+  padding: 0vw;
+}
+
+ul {
+   list-style-type: none;
+}
+.list {
+  color: white;
+}
+
+.list:before {
+  content: '';
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 1vh;
+  top: 1vh;
+  left: 1.3vw;
+  width: 0.09vw;
+}
+
+.listt {
+  color: #17a2b8;
+}
+
+.listt:before {
+  content: '';
+  background-color: #17a2b8;
+  color: #17a2b8;
+  position: absolute;
+  bottom: 1vh;
+  top: 1vh;
+  left: 1.3vw;
+  width: 0.09vw;
+}
+
+ 
+ 

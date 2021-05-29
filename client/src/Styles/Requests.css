@@ -1,0 +1,132 @@
+.horizontalLine {
+  border-top: 0.01vh solid #e4dfdf;
+  height: 5vw;
+  position: relative;
+  width: 100%;
+}
+
+.borderTop-button {
+  border-color: #e4dfdf;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #fff;
+  position: relative;
+  bottom: 0.1vw;
+  color: #879097;
+  font-weight: 600;
+  font-size: 1.2vw;
+  margin-right: 2vw;
+  outline: none;
+    /* width: 15vw; */
+
+}
+
+.borderTop-button:hover,
+.borderTop-button:active {
+  border-color: #879097;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #fff;
+  position: relative;
+  bottom: 0.1vw;
+  /* width: 15vw; */
+  color: #879097;
+  font-weight: 600;
+  font-size: 1.2vw;
+  margin-right: 2vw;
+  outline: none;
+}
+
+.borderTop-button:focus {
+  border-color: #2185d0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #fff;
+  position: relative;
+  bottom: 0.1vw;
+  /* width: 15vw; */
+  color: #2185d0;
+  font-weight: 600;
+  font-size: 1.2vw;
+  margin-right: 2vw;
+  outline: none;
+}
+.request-heading {
+  margin-bottom: 0;
+  min-height: 5vw;
+  color: #17a2b8;
+  font-size: 1.5vw;
+  font-weight: 700;
+  /* margin-left: 3vw; */
+}
+
+/* Accept Reject Cancel Modal Styles */
+
+.acceptRejectCancelModal-all {
+  text-align: left;
+}
+
+.acceptRejectCancelModal-title {
+  color: #17a2b8;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin-bottom: 0;
+  min-height: 3vw;
+}
+
+.acceptRejectCancelModal-paragraph {
+  font-size: 1.1vw;
+  font-weight: 400;
+  margin-bottom: 0;
+  min-height: 2vw;
+}
+
+.acceptRejectCancelModal-error {
+  font-size: 0.9vw;
+  color: red;
+  font-weight: 400;
+  min-height: 1.4vw;
+  margin-bottom: 0;
+  min-height: 2vw;
+}
+
+.acceptRejectCancelModal-btn,
+.acceptRejectCancelModal-btn:active,
+.acceptRejectCancelModal-btn:focus,
+.acceptRejectCancelModal-btn:hover {
+  font-size: 1.1vw;
+  background-color: #17a2b8;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 8vw;
+  height: 2vw;
+  border-radius: 0.25vw;
+}
+
+.acceptRejectCancelModal-input {
+  padding-left: 0.5vw;
+  border-color: #e8e9e9;
+  font-size: 0.8vw;
+  min-height: 2.2vw;
+  color: #495057;
+  background-color: #fff;
+  border: 0.1vw solid #ced4da;
+  border-radius: 0.35vw;
+  width: 25vw;
+  outline: none;
+  margin-bottom: 0.5vw;
+}
+
+.acceptRejectCancelModal-input {
+  color: #17a2b8;
+}
+
+.acceptRejectCancelModal-span {
+  cursor: pointer;
+  margin-left: 1vw;
+}

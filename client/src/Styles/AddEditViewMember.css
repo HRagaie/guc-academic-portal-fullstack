@@ -1,0 +1,97 @@
+.addEditViewMember-card {
+  border-radius: 0.35vw;
+  border-color: #e6e9ed;
+  border: 0.05vw solid rgba(0, 0, 0, 0.125);
+  font-size: 1vw;
+  width: 60vw;
+  padding: 1.5vw;
+  text-align: left;
+}
+
+.addEditViewMember-card::-webkit-scrollbar {
+  width: 0.3vw;
+  height: 0.3vw;
+}
+
+.addEditViewMember-card::-webkit-scrollbar-track {
+  border-radius: 0.5vw;
+  background: #eeeeee;
+}
+
+.addEditViewMember-card::-webkit-scrollbar-thumb {
+  border-radius: 0.3vw;
+  background: #17a2b8;
+}
+
+.addEditViewMember-header {
+  font-size: 1.2vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 2vw;
+  color: #17a2b8;
+}
+
+.addEditViewMember-label {
+  color: #434a54;
+  font-size: 1vw;
+}
+
+.addEditViewMember-input,
+.addEditViewMember-input:active,
+.addEditViewMember-input:focus {
+  padding-left: 0.5vw;
+  border-color: #e8e9e9;
+  font-size: 0.8vw;
+  min-height: 2.2vw;
+  color: #495057;
+  background-color: #fff;
+  border: 0.1vw solid #ced4da;
+  border-radius: 0.35vw;
+  width: 30vw;
+  outline: none;
+}
+
+.addEditViewMember-input::placeholder {
+  color: #17a2b8;
+}
+
+.addEditViewMember-button,
+.addEditViewMember-button:hover,
+.addEditViewMember-button:focus,
+.addEditViewMember-button:active {
+  background-color: #17a2b8;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-color: #17a2b8;
+  box-shadow: none;
+  width: 12vw;
+  height: 3vw;
+  border-radius: 0.4vw;
+  margin-left: 36vw;
+  font-size: 1.2vw;
+}
+
+.addEditViewMember-editButton,
+.addEditViewMember-editButton:hover,
+.addEditViewMember-editButton:focus,
+.addEditViewMember-editButton:active {
+  background-color: #17a2b8;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-color: #17a2b8;
+  box-shadow: none;
+  width: 12vw;
+  height: 3vw;
+  border-radius: 0.4vw;
+  font-size: 1.2vw;
+  margin-bottom: 2vw;
+}
+.addEditViewMember-error {
+  color: red;
+  margin-bottom: 0;
+  min-height: 2vw;
+  margin-left: 30vw;
+}

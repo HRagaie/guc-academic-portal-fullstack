@@ -1,0 +1,112 @@
+.schedule {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 70vw;
+  margin-left: 2%;
+  /* margin-right: 5%; */
+  margin-bottom: 2%;
+  box-shadow: 1px 1px 10px 5px #999;
+}
+.sendReqBtn {
+  background-color: #17a2b8; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sendReqBtn:focus {
+  border: 2px solid #17a2b8;
+  outline: none;
+}
+
+.add-icon-btn {
+  background-color: #17a2b8; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.add-icon {
+  width: 1.2vw;
+}
+.del-img {
+  width: 1.2vw;
+  float: right;
+  cursor: pointer;
+}
+.edit-img {
+  width: 1.2vw;
+  float: right;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+.kohlyButton {
+  background-color: #17a2b8; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 10vw;
+}
+
+.kohlyButton:focus {
+  border: 2px solid #17a2b8;
+  outline: none;
+}
+.kohlyButton1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #17a2b8;
+}
+
+.kohlyButton1:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.schedule .slot {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.schedule .tableHeader {
+  padding: 8px;
+}
+
+.schedule .tableRow:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.schedule .tableHeader {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #778899;
+  color: white;
+  font-size: 16px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}

@@ -1,0 +1,29 @@
+.filters-card {
+  width: 60vw;
+  /* margin-left: 5vw; */
+  border-color: #e6e9ed;
+  border-radius: 0.3vw;
+  background-color: #fff;
+  margin-bottom: 2vw;
+  min-height: 5vw;
+}
+
+.filter-label {
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #17a2b8;
+}
+
+.filter-input,
+.filter-input:hover {
+  border-color: #e8e9e9;
+  color: #495057;
+  background-color: #fff;
+  border-radius: 0.3vw;
+  width: 10vw;
+  margin-left: 2vw;
+}
+
+.single-filter {
+  margin-right: 2vw;
+}
